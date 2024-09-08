@@ -1,0 +1,79 @@
+.card {
+  margin-bottom: 20px;
+  background-color: #C7C8CC
+}
+
+.card-img-top {
+  width: 100%;
+  height: 200px; 
+  object-fit: cover;
+}
+
+/* Dropdown menu background color */
+.dropdown-menu {
+  background-color: #343a40; /* Match the navbar background color */
+  border: none; /* Remove border */
+  box-shadow: none; /* Remove box shadow */
+}
+
+/* Style the dropdown items */
+.dropdown-item {
+  color: #ffffff80; /* Social color */
+  font-weight: bold;
+  padding: 10px 15px;
+}
+
+.dropdown-item:hover {
+  color: #ffffff; /* On hover */
+  background-color: #495057; /* Slightly lighter background on hover */
+}
+
+
+/* Social Icons */
+.navbar-nav.ml-auto .nav-link {
+  font-size: 1.5rem;
+  margin-left: 15px;
+  color: #c7c7c5 ; /* Match navbar link color */
+}
+
+.navbar-nav.ml-auto .nav-link:hover {
+  color: #ffffff ;
+}
+body {
+    background-color: #393E46;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .jumbotron {
+    
+    background-color: #222831;
+    background-size: cover;
+    color: #EEEEEE;
+    text-shadow: 2px 2px 4px #000000;
+  }
+  .btn-primary,
+  .btn-primary:visited
+  {
+    background-color: #B4B4B8;
+    border-color: #b4b8b5;
+    transition: box-shadow 0.7s ease; /* Add transition property */
+  }
+  .btn-primary:hover {
+    background-color: #e7e752;
+    border-color: #e7e752;
+    box-shadow: 0 0 20px 10px #e7e752; /* Add box-shadow effect */
+    color: #000000;
+}
+
+.btn-secondary,
+.btn-secondary:visited
+{
+
+  transition: box-shadow 0.7s ease; /* Add transition property */
+}
+.btn-secondary:hover {
+  background-color: #7469B6;
+  border-color: #7469B6;
+  box-shadow: 0 0 30px 15px #7469B6; /* Add box-shadow effect */
+  color: #000000;
+}

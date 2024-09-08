@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAADy8vIAIB8jAAAAAAAzMzMA////AK/CdgCdvMEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIiZlVVVWYiIiZVVVVVVWIiZVVVVVVVViZVVVVVVVVVZlVmZVVWZlVlVgAGVWAAZVVQAwAAADAFVVAzMAADAwVVUAMAAAAwBVVVAAAAAEBVVVVVVVJVVVVSVVVVFVVVVSJVVVUVVVVVIiVVVRVVVVIiIlVVUlVVIiIiIlVSVSIiLgBwAAwAMAAIABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIABAACAAQAAwAMAAOAHAAD4HwAA" rel="icon" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NinjaFroggy</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Custom CSS -->
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <a class="navbar-brand" href="Homepage.html">NinjaFroggy</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="devlogs.html">Dev Logs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="signup.html">Signup</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="aboutus.html">About</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav ml-auto d-lg-none">
+            <!-- Social media submenu for collapsed view -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" id="socialMediaDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="font-size: 1rem; color: #ffffff80; margin-left: 0;">Socials</a>
+              <div class="dropdown-menu social-media-submenu" aria-labelledby="socialMediaDropdown">
+                <a class="dropdown-item" href="https://www.youtube.com/@NinjaFroggyDev" title="YouTube"><i class="fab fa-youtube"></i> YouTube</a>
+                <a class="dropdown-item" href="https://www.tiktok.com/@ninjafroggydev" title="TikTok"><i class="fab fa-tiktok"></i> TikTok</a>
+                <a class="dropdown-item" href="mailto:ninjafroggydev@gmail.com" title="Email"><i class="fas fa-envelope"></i> Email</a>
+              </div>
+            </li>
+          </ul>
+          <ul class="navbar-nav ml-auto d-none d-lg-flex">
+            <!-- Social media icons for expanded view -->
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.youtube.com/@NinjaFroggyDev" title="YouTube"><i class="fab fa-youtube"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.tiktok.com/@ninjafroggydev" title="TikTok"><i class="fab fa-tiktok"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="mailto:ninjafroggydev@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+
+    
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container text-center">
+      <h1 class="display-4">NinjaFroggy </h1>
+      <p class="lead">Follow the adventures of a frog training to be a ninja</p>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1629904853716-f0bc54eea481?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Dev Logs</h5>
+            <p class="card-text">Wanna see how close we are to releasing? Check out our dev logs where we post updates related to the game's progress</p>
+            <a href="devlogs.html" class="btn btn-primary">Dev Logs</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1577563908411-5077b6dc7624?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Signup</h5>
+            <p class="card-text">Want to know more information about our game and be one of the first to play our game? Sign up here</p>
+            <a href="signup.html" class="btn btn-primary" >Sign up</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1599597435338-adbf0f27b5b0?q=80&w=2934&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">About us</h5>
+            <p class="card-text">A bit of information about us and where you can reach out to us, in case you wanted that information.</p>
+            <a href="aboutus.html" class="btn btn-primary">About us</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+ 
+  <footer class="footer mt-auto py-3 bg-dark">
+    <div class="container text-center">
+      <span class="text-muted">2024 NinjaFroggy - All rights reserved</span>
+    </div>
+  </footer>
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
