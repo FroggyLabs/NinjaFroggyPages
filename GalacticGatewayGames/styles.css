@@ -1,0 +1,210 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.hero-section {
+    background: url('Assets/spaceBack.png') no-repeat center center/cover;
+    min-height: 100vh;
+    width: 100%;
+    color: white;
+    position: relative;
+    z-index: 1;
+    margin-top: 0; /* Ensure no margin on top */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.hero-section::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.4); /* dark overlay */
+    z-index: 0;
+}
+
+nav {
+    z-index: 10; /* Ensure navbar is above everything else */
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0); /* Transparent background */
+    box-shadow: none; /* Remove any shadow */
+    padding: 0.5rem 1rem; /* Adjust navbar padding to match the previous size */
+    margin: 0; /* Remove any margin */
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem; /* Adjust brand font size */
+}
+
+.nav-link {
+    color: white;
+    font-size: 1rem; /* Adjust link font size */
+}
+
+.nav-link:hover {
+    color: #f8f9fa;
+}
+
+.title-text {
+    font-size: 6rem;
+    letter-spacing: 4px;
+    position: relative;
+    z-index: 2;
+    opacity: 0;
+    animation: fadeIn 2s forwards;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+.lead {
+    font-size: 1.5rem;
+    opacity: 0.85;
+}
+
+.btn-outline-light:hover {
+    background-color: white;
+    color: #333;
+}
+
+/* Smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Section padding and layout */
+section {
+    padding: 60px 0;
+}
+
+#events, #proshow, #contact {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.bg-light {
+    background-color: #f8f9fa !important;
+}
+
+.bg-dark {
+    background-color: #343a40 !important;
+}
+
+/* Button styles */
+.btn-outline-light {
+    border-radius: 50px;
+    padding: 10px 30px;
+}
+
+.hero-section .btn {
+    margin-top: 30px;
+    position: relative;
+    z-index: 3; /* Ensure button is above the overlay */
+    padding: 15px 40px;  /* Increased padding for a bigger clickable area */
+    font-size: 1.2rem;   /* Larger font size for better readability */
+    border-radius: 50px;
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.hero-section .btn:hover {
+    background-color: white;
+    color: #333;
+}
+
+section {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 60px 20px;
+}
+section h2 {
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+section p {
+    font-size: 1.5rem;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    opacity: 0.9;
+}
+
+@media (max-width: 768px) {
+    .title-text {
+        font-size: 3rem;
+    }
+
+    section h2 {
+        font-size: 2.5rem;
+    }
+
+    section p {
+        font-size: 1.1rem;
+    }
+}
+
+#home {
+    background: url('Assets/spaceBack.png') no-repeat center center/cover;
+    color: white;
+    position: relative;
+}
+
+#events {
+    background: linear-gradient(135deg, #1e1e2f, #2c2c54);
+    color: white;
+}
+
+#proshow {
+    background: url('Assets/back.png') no-repeat center center/cover;
+    color: white;
+    position: relative;
+}
+
+#contact {
+    background: linear-gradient(135deg, #111, #333);
+    color: white;
+}
+
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    pointer-events: auto;
+}
+
+.hero-section > *:not(#particles-js) {
+    position: relative;
+    z-index: 1;
+}
+
+.hero-section .container {
+    pointer-events: none;
+  }
+  
+  .hero-section .btn,
+  .hero-section .nav-link,
+  .hero-section .navbar-toggler,
+  .hero-section .navbar-brand {
+    pointer-events: auto;
+  }
