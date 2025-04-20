@@ -208,3 +208,19 @@ section p {
   .hero-section .navbar-brand {
     pointer-events: auto;
   }
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  text-decoration: none; 
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+}
+
+.button:hover {
+  background-color: #45a049;
+}
