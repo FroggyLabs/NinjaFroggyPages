@@ -21,6 +21,8 @@ body, html {
     
 }
 
+  
+
 .hero-section::before {
     content: "";
     position: absolute;
@@ -162,25 +164,29 @@ section p {
 }
 
 #home {
-    background: url('Assets/spaceBack.png') no-repeat center center/cover;
+    background: linear-gradient(135deg, #000000, #1a2a6c, #6a1b9a, #c13584);
+
+
+
     color: white;
     position: relative;
 }
 
-#events {
-    background: linear-gradient(135deg, #1e1e2f, #2c2c54);
-    color: white;
+#games {
+    background: linear-gradient(135deg, #2c3e50, #4e6d88, #6f4f6c, #2a2a3b);
+
 }
 
-#proshow {
-    background: url('Assets/back.png') no-repeat center center/cover;
-    color: white;
-    position: relative;
+#store {
+    background: linear-gradient(135deg, #ffffff, #a8c8f1, #c5e0f0, #e3f2f7, #ffffff);
+
+
 }
 
 #contact {
-    background: linear-gradient(135deg, #111, #333);
-    color: white;
+    background-color: #343a40 !important;
+    background-image: none !important;
+    color: white !important;
 }
 
 #particles-js {
@@ -224,3 +230,8 @@ section p {
 .button:hover {
   background-color: #45a049;
 }
+
+.hero-section .container {
+    margin-bottom: 100px; 
+}
+
