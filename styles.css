@@ -18,10 +18,10 @@ body, html {
     justify-content: center;
     align-items: center;
     text-align: center;
-    
+
 }
 
-  
+
 
 .hero-section::before {
     content: "";
@@ -207,7 +207,7 @@ section p {
 .hero-section .container {
     pointer-events: none;
   }
-  
+
   .hero-section .btn,
   .hero-section .nav-link,
   .hero-section .navbar-toggler,
@@ -221,7 +221,7 @@ section p {
   background-color: #4CAF50;
   color: white;
   text-align: center;
-  text-decoration: none; 
+  text-decoration: none;
   border-radius: 5px;
   border: none;
   font-size: 16px;
@@ -232,6 +232,6 @@ section p {
 }
 
 .hero-section .container {
-    margin-bottom: 100px; 
+    margin-bottom: 250px;
 }
 
